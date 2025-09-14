@@ -1,6 +1,6 @@
 import yt_dlp
 
-playlist_url = "https://youtu.be/vB0V3iCSzQw?si=ToSOcLMgNLMGXYY8"  # Replace with your playlist URL
+playlist_url = "paste_link_here"  # Replace with your playlist URL
 download_path = "D:/Downloads/ytplaylistdo"  # Replace with your download folder
 
 ydl_opts = {
@@ -17,3 +17,4 @@ ydl_opts = {
 
 with yt_dlp.YoutubeDL(ydl_opts) as ydl:
     ydl.download([playlist_url])
+
